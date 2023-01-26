@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b74c75-96e8-4ad9-8275-e0f6f6b51252" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/StackMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/LinkedLists.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/Node.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/QueueOperation.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/Queues.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
