@@ -1,6 +1,6 @@
 package com.brideglabz.stacksandqueues;
 
-public class LinkedList <T> {
+public class LinkedList <T>{
     public Node<T> head;
     public Node<T> tail;
 
@@ -92,7 +92,6 @@ public class LinkedList <T> {
         }
 
     }
-
     @Override
     public String toString() {
         return "LinkedList{" +

@@ -13,5 +13,6 @@ public class StackMain <T> {
         Stack.printStack();
         Object Assert = new Object();
         Assert.equals(thirdNode == newNode);
+
     }
 }

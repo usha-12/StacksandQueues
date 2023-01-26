@@ -9,7 +9,7 @@ public class Stack <T> {
     public void push (Node<T> element){
         LinkedList.add((T) element);
     }
-    public static Node<T> peak(){
+    public Node<T> peak(){
         return LinkedList.head;
 
     }
@@ -20,3 +20,12 @@ public class Stack <T> {
         LinkedList.show();
     }
 }
+
+/*Ability to peak and
+pop from the Stack
+till it is empty
+56
+->30
+->70
+- Use LinkedList to do the Stack
+Operations*/
