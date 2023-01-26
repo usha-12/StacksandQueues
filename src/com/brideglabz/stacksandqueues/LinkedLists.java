@@ -1,15 +1,11 @@
 package com.brideglabz.stacksandqueues;
-
 public class LinkedLists <T extends Comparable<T>>{
     Node<T> head;
     Node<T> tail;
-
-
     public LinkedLists() {
         this.head = null;
         this.tail = null;
     }
-
     public void append(T element) {
         Node<T> newNode = new Node<T>(element);
 
@@ -21,7 +17,6 @@ public class LinkedLists <T extends Comparable<T>>{
             tail.next = newNode;
         tail = newNode;
     }
-
     public void add(T element) {
         Node<T> newNode = new Node<T>(element);
 
@@ -33,7 +28,6 @@ public class LinkedLists <T extends Comparable<T>>{
             newNode.next = head;
         head = newNode;
     }
-
     public void sortAdd(T element) {
         Node<T> newNode = new Node<T>(element);
 
@@ -62,7 +56,6 @@ public class LinkedLists <T extends Comparable<T>>{
             newNode.next = thisNode;
         }
     }
-
     public void printLinkedList() {
         Node<T> thisNode = head;
 
@@ -75,7 +68,6 @@ public class LinkedLists <T extends Comparable<T>>{
             }
         }
     }
-
     public void search(T findElement) {
         Node<T> thisNode = head;
 
@@ -86,7 +78,6 @@ public class LinkedLists <T extends Comparable<T>>{
             thisNode = thisNode.next;
         }
     }
-
     public void insert(T insertElement, T previous) {
         Node<T> newNode = new Node<T>(insertElement);
 
@@ -97,7 +88,6 @@ public class LinkedLists <T extends Comparable<T>>{
         newNode.next = thisNode.next;
         thisNode.next = newNode;
     }
-
     public void printSize() {
         Node<T> thisNode = this.head;
         int count = 0;
@@ -112,7 +102,6 @@ public class LinkedLists <T extends Comparable<T>>{
             System.out.println("\nSize of the Linked List : " + count);
         }
     }
-
     public int getSize() {
         Node<T> thisNode = this.head;
         int count = 0;
@@ -127,7 +116,6 @@ public class LinkedLists <T extends Comparable<T>>{
         }
         return count;
     }
-
     public void pop(T dataToRemove) {
         Node<T> thisNode = head;
 
