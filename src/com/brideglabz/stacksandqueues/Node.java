@@ -1,25 +1,31 @@
 package com.brideglabz.stacksandqueues;
 
 public class Node <T>{
-    private T key;
-    private Node<T> next;
+    T data;
+    Node <T> next;
 
-    public Node(T key) {
-        this.key = key;
+    public Node(T data) {
+        this.data = data;
+        this.next = null;
     }
 
-    public T getKey() {
-        return key;
+    public Node() {
+
     }
 
-    public void setKey(T key) {
-        this.key = key;
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
     }
 
     public Node<T> getNext() {
         return next;
     }
+
     public void setNext(Node<T> next) {
-        this.next = next;
+        this.next = null;
     }
 }

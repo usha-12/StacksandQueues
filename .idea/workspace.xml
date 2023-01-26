@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b74c75-96e8-4ad9-8275-e0f6f6b51252" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/stacksandqueues/StackMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
